@@ -14,8 +14,8 @@ public class Escola {
     private String nome;
     private String endereco;
     private String sigla;
-    private String n_alunos;
-    private String area;
+    private Integer n_alunos;
+    private Integer area;
 
     public int getCodigo() {
         return codigo;
@@ -49,19 +49,19 @@ public class Escola {
         this.sigla = sigla;
     }
 
-    public String getN_alunos() {
+    public Integer getN_alunos() {
         return n_alunos;
     }
 
-    public void setN_alunos(String n_alunos) {
+    public void setN_alunos(Integer n_alunos) {
         this.n_alunos = n_alunos;
     }
 
-    public String getArea() {
+    public Integer getArea() {
         return area;
     }
 
-    public void setArea(String area) {
+    public void setArea(Integer area) {
         this.area = area;
     }
 
@@ -69,4 +69,5 @@ public class Escola {
     public String toString() {
         return nome;
     }
+    
 }
